@@ -2,7 +2,7 @@ package Abstract_Factory;
 
 public class AbstractFActory {
 
-    public static ProfessionFactory isTraineeOrProfessional(boolean isTrainee){
+    public static ProfessionFactory isTrainee(boolean isTrainee){
 
         if(isTrainee){
             return new Trainee_Factory();
